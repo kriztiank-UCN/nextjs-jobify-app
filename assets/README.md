@@ -274,10 +274,10 @@ export default links;
 
 - create following components :
 
-  - Sidebar
-  - Navbar
-  - LinksDropdown
-  - ThemeToggle
+  - Sidebar.tsx
+  - Navbar.tsx
+  - LinksDropdown.tsx
+  - ThemeToggle.tsx
 
 - setup (dashboard/layout.tsx)
 
@@ -303,10 +303,10 @@ export default links;
 
 - create following components :
 
-  - Sidebar
-  - Navbar
-  - LinksDropdown
-  - ThemeToggle
+  - Sidebar.tsx
+  - Navbar.tsx
+  - LinksDropdown.tsx
+  - ThemeToggle.tsx
 
 (dashboard/layout.tsx)
 
@@ -362,7 +362,7 @@ export default layout;
 
 ```tsx
 'use client';
-import Logo from '@/assets/images/logo.svg';
+import Logo from '@/assets/logo.svg';
 import links from '@/utils/links';
 import Image from 'next/image';
 import Link from 'next/link';
