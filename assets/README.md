@@ -872,7 +872,7 @@ npx shadcn@latest add select
 
 ## FormComponents
 
-- components/FormComponents
+- components/FormComponents.tsx
 
 ```tsx
 import { Control } from 'react-hook-form';
