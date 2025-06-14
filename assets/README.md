@@ -663,7 +663,7 @@ export default ThemeToggle;
 
 ## CreateJobForm Setup
 
-- components/CreateJobForm
+- components/CreateJobForm.tsx
 - render in add-job/page.tsx
 
 ```sh
@@ -772,8 +772,6 @@ export default CreateJobForm;
    - Use `z.infer<typeof createAndEditJobSchema>` to infer the type of the `createAndEditJobSchema` object.
    - Export the `CreateAndEditJobType` type so it can be used in other files.
 
-Enums in TypeScript are a special type that allows you to define a set of named constants. They can be numeric or string-based.
-
 ## Types
 
 - utils/types.ts
@@ -804,6 +802,8 @@ export enum JobMode {
   PartTime = 'part-time',
   Internship = 'internship',
 }
+
+// Enums in TypeScript are a special type that allows you to define a set of named constants. They can be numeric or string-based.
 
 export const createAndEditJobSchema = z.object({
   position: z.string().min(2, {
