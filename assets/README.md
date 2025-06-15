@@ -1227,7 +1227,7 @@ npx prisma db push
 
 ## CreateJobAction
 
-- utils/actions
+- utils/actions.ts
 
 ```ts
 'use server';
