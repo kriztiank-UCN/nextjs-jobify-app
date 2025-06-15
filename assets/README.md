@@ -1287,7 +1287,7 @@ npx shadcn@latest add toast
 
 ## Add React Query and Toaster
 
-- app/provider
+- app/provider.tsx
 
 ```tsx
 'use client';
