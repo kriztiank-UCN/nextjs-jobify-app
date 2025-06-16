@@ -1437,7 +1437,7 @@ function onSubmit(values: CreateAndEditJobType) {
 
 ## GetAllJobsAction
 
-- actions
+- actions.ts
 
 ```ts
 type GetAllJobsActionTypes = {
